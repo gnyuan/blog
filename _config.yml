@@ -1,6 +1,6 @@
 markdown: redcarpet
 permalink: /:categories/:title.html
-url: https://gnyuan.github.io/blog/ 
+url: gnyuan.github.io/blog/ 
 lsi: false
 pygments: true
 safe: true
