@@ -1,6 +1,6 @@
 markdown: redcarpet
 permalink: /:categories/:title.html
-url: gnyuan.github.io/blog/ 
+#url: gnyuan.github.io/blog/ 
 lsi: false
 pygments: true
 safe: true
@@ -11,7 +11,7 @@ paginate: 8
 paginate_path: "blog/page:num"
 
 # presonal config
-domain: gnyuan.github.io/blog/
+#domain: gnyuan.github.io/blog/
 title: Morgan's Blog
 description: Android, Cocos2d, Java Web, Linux, reading...
 author: Steven Pan
