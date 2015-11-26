@@ -10,7 +10,7 @@ title: "我的首页：Home"
 <!-- Loop output paged posts -->
 {% for post in paginator.posts %}
 <h2>
-  <a href="{{ post.url }}">
+  <a href="blog/{{ post.url }}">
     {{ post.title }}
   </a> 
   <div class="post-date">
@@ -20,7 +20,7 @@ title: "我的首页：Home"
 </h2>
 <hr>
 {{ post.excerpt }}
-	<p> <a href="{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
+	<p> <a href="blog/{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
 <hr>
 {% endfor %}
 
